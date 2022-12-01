@@ -511,11 +511,10 @@ position = Vector2( -4, 4.00793 )
 shape = SubResource( 12 )
 
 [node name="PlayerSprites" type="AnimatedSprite" parent="Player/CollisionShape2D"]
-position = Vector2( 32, -33.0662 )
+position = Vector2( 4, -32.064 )
 scale = Vector2( 0.128, 0.128 )
 frames = ExtResource( 10 )
-animation = "Idle"
-frame = 6
+animation = "Shoot"
 playing = true
 
 [node name="ShootPosRight" type="Node2D" parent="Player"]
@@ -547,7 +546,7 @@ position = Vector2( 7, -13.0317 )
 scale = Vector2( 0.128, 0.128 )
 frames = ExtResource( 42 )
 animation = "Attack"
-frame = 7
+frame = 5
 playing = true
 
 [node name="Zombie3" type="KinematicBody2D" parent="."]
@@ -566,7 +565,7 @@ position = Vector2( 9, -13 )
 scale = Vector2( 0.128, 0.128 )
 frames = ExtResource( 42 )
 animation = "Idle"
-frame = 9
+frame = 11
 playing = true
 
 [node name="Zombie2" type="KinematicBody2D" parent="."]
@@ -585,5 +584,5 @@ position = Vector2( 10, -13 )
 scale = Vector2( 0.128, 0.128 )
 frames = ExtResource( 42 )
 animation = "Idle"
-frame = 9
+frame = 11
 playing = true
