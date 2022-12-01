@@ -1,0 +1,54 @@
+[gd_resource type="SpriteFrames" load_steps=30 format=2]
+
+[ext_resource path="res://Animations/GAMMAI SPRITESHEET/DAGAN 1.png" type="Texture" id=1]
+[ext_resource path="res://Animations/GAMMAI SPRITESHEET/JUMP 7.png" type="Texture" id=2]
+[ext_resource path="res://Animations/GAMMAI SPRITESHEET/JUMP 4.png" type="Texture" id=3]
+[ext_resource path="res://Animations/GAMMAI SPRITESHEET/DAGAN 8.png" type="Texture" id=4]
+[ext_resource path="res://Animations/GAMMAI SPRITESHEET/JUMP 2.png" type="Texture" id=5]
+[ext_resource path="res://Animations/GAMMAI SPRITESHEET/DAGAN 2.png" type="Texture" id=6]
+[ext_resource path="res://Animations/GAMMAI SPRITESHEET/IDLE0006.png" type="Texture" id=7]
+[ext_resource path="res://Animations/GAMMAI SPRITESHEET/JUMP 3.png" type="Texture" id=8]
+[ext_resource path="res://Animations/GAMMAI SPRITESHEET/DAGAN 3.png" type="Texture" id=9]
+[ext_resource path="res://Animations/GAMMAI SPRITESHEET/DAGAN 5.png" type="Texture" id=10]
+[ext_resource path="res://Animations/GAMMAI SPRITESHEET/DAGAN 7.png" type="Texture" id=11]
+[ext_resource path="res://Animations/GAMMAI SPRITESHEET/DAGAN 6.png" type="Texture" id=12]
+[ext_resource path="res://Animations/GAMMAI SPRITESHEET/DAGAN 4.png" type="Texture" id=13]
+[ext_resource path="res://Animations/GAMMAI SPRITESHEET/IDLE0008.png" type="Texture" id=16]
+[ext_resource path="res://Animations/GAMMAI SPRITESHEET/JUMP 1.png" type="Texture" id=17]
+[ext_resource path="res://Animations/GAMMAI SPRITESHEET/IDLE0003.png" type="Texture" id=18]
+[ext_resource path="res://Animations/GAMMAI SPRITESHEET/JUMP 5.png" type="Texture" id=19]
+[ext_resource path="res://Animations/GAMMAI SPRITESHEET/JUMP 6.png" type="Texture" id=21]
+[ext_resource path="res://Animations/GAMMAI SPRITESHEET/IDLE0004.png" type="Texture" id=26]
+[ext_resource path="res://Animations/GAMMAI SPRITESHEET/IDLE0009.png" type="Texture" id=27]
+[ext_resource path="res://Animations/GAMMAI SPRITESHEET/SHOOT 2.png" type="Texture" id=28]
+[ext_resource path="res://Animations/GAMMAI SPRITESHEET/SHOOT 1.png" type="Texture" id=29]
+[ext_resource path="res://Animations/GAMMAI SPRITESHEET/SHOOT 3.png" type="Texture" id=30]
+[ext_resource path="res://Animations/GAMMAI SPRITESHEET/JUMP 8.png" type="Texture" id=31]
+[ext_resource path="res://Animations/GAMMAI SPRITESHEET/IDLE0007.png" type="Texture" id=32]
+[ext_resource path="res://Animations/GAMMAI SPRITESHEET/IDLE0002.png" type="Texture" id=33]
+[ext_resource path="res://Animations/GAMMAI SPRITESHEET/IDLE0005.png" type="Texture" id=34]
+[ext_resource path="res://Animations/GAMMAI SPRITESHEET/IDLE0010.png" type="Texture" id=35]
+[ext_resource path="res://Animations/GAMMAI SPRITESHEET/IDLE0001.png" type="Texture" id=36]
+
+[resource]
+animations = [ {
+"frames": [ ExtResource( 36 ), ExtResource( 33 ), ExtResource( 18 ), ExtResource( 26 ), ExtResource( 34 ), ExtResource( 7 ), ExtResource( 32 ), ExtResource( 16 ), ExtResource( 27 ), ExtResource( 35 ) ],
+"loop": true,
+"name": "Idle",
+"speed": 10.0
+}, {
+"frames": [ ExtResource( 17 ), ExtResource( 5 ), ExtResource( 8 ), ExtResource( 3 ), ExtResource( 19 ), ExtResource( 21 ), ExtResource( 2 ), ExtResource( 31 ) ],
+"loop": true,
+"name": "Jump",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 1 ), ExtResource( 6 ), ExtResource( 9 ), ExtResource( 13 ), ExtResource( 10 ), ExtResource( 12 ), ExtResource( 11 ), ExtResource( 4 ) ],
+"loop": true,
+"name": "Run",
+"speed": 24.0
+}, {
+"frames": [ ExtResource( 29 ), ExtResource( 29 ), ExtResource( 28 ), ExtResource( 28 ), ExtResource( 30 ), ExtResource( 30 ) ],
+"loop": true,
+"name": "Shoot",
+"speed": 10.0
+} ]
